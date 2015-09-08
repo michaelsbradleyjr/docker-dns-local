@@ -4,9 +4,7 @@
 
 `./run.sh container-name someSecretPassword`
 
-for a clean run first do:
-
-`rm -rf bind-data/*`
+For a clean run first do: `rm -rf bind-data/*`
 
 ### Docker host IP
 
