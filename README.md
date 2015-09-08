@@ -127,4 +127,4 @@ docker start container-name
 docker logs -f container-name
 ```
 
-The `host` and `dig` command given above should work as before.
+The `host` and `dig` commands given above should work as before.
