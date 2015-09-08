@@ -103,9 +103,11 @@ Address: `IP address of docker host (e.g. 192..)`
 
 #### Apply Configuration
 
+*--output from config change should appear in the docker logs terminal--*
+
 ### Verify
 
-Now, from another machine (e.g. a mac running the vbox docker host), try running:
+Now, from the development machine (e.g. a mac running the vbox docker host), try running:
 
 ```
 host somehost.sub.example.com 192..
