@@ -34,6 +34,9 @@ if [ -z "$2" ]; then
     exit 1
 fi
 
+cd $script_dir
+mkdir -p bind-data
+
 docker run \
        -d \
        --dns=127.0.0.1 \
