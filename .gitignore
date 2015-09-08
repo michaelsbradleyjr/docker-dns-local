@@ -1,0 +1,11 @@
+fuse*
+.DS_Store
+*~
+*.*~
+.*.sw*
+._*
+.#*
+*.swp
+
+bind-data/*
+!bind-data/.gitkeep
