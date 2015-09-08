@@ -25,7 +25,7 @@ script_dir=$(dirname -- "$(script_path)")
 #      https://github.com/sameersbn/docker-bind
 
 if [ -z "$1" ]; then
-    echo "Please provide a name for the container, e.g. bind-local"
+    echo "Please provide a name for the container, e.g. dns-local"
     exit 1
 fi
 
