@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+command -v docker &>/dev/null
+if [ $? != 0 ]; then
+    echo "This script requires the docker command"
+    exit 1
+fi
+
 script_path () {
     local scr_path=""
     local dir_path=""
